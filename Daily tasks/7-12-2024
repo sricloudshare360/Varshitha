@@ -1,0 +1,27 @@
+yesterday-
+1.1 What is JavaScript and its role in web development.
+1.2 Declaring and using variables (let, const, var).
+1.3 Data types: Numbers, Strings, Booleans, etc.
+1.4 Writing and calling functions.
+1.5 Basics of DOM (Document Object Model): Accessing and modifying HTML elements using JavaScript.
+Tasks -
+1. Hands-On Practice:
+1.1 Write a program to display a greeting message when a button is clicked.
+1.2 Create a program to add, subtract, multiply, and divide two numbers using user input.
+1.3 DOM Task: Build a simple webpage where clicking a button changes the background color of the page.
+
+Today-
+1.1 Control Structures: if-else, switch, loops (for, while, do-while).
+1.2 Functions: Parameters, return values, and arrow functions.
+1.3 Events: Handling user actions like clicks, hover, and more.
+
+Tasks-
+1.1 Control Structures Task: Write a program to calculate the grade of a student based on marks using if-else and switch.
+1.2 Functions Task: Create a function to generate a random number and print whether it’s odd or even.
+1.3 Events Task: Build a webpage where clicking a button shows an alert box with a custom message.
+
+All Tasks completed.
+No blockers.
+no.of hours-4hrs.
+
+
