@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">GENERATE</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+    let x = Math.floor((Math.random() * 100) + 1); 
+    let result;
+    if (x % 2 === 0) {
+        result = x + " is an Even Number.";
+    } else {
+    result = x + " is an Odd Number.";
+    }
+    document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>

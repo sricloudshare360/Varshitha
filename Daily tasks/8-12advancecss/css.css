@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    padding: 100px 100px;
+}
+.p{
+    text-align: left;
+    width:60%;
+    justify-content: center;
+}
+.box1 {
+    display: inline-flex;
+    color: rgb(231, 239, 239);
+    background-color: #2f3031; 
+    border: 1px solid black;
+    padding: 2px; 
+}
+.h3 {
+    display: inline-block; 
+    width: 48%; 
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}  
+.skilss-container{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+.profile-pic {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-top: -230px; 
+} 
+.container {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box {
+    background-color: #2f3031;
+    color: white;
+    padding: 10px 120px;
+}
+.education-container{
+    border: 1px solid #424040; 
+    padding: 15px; 
+    margin: 10px; 
+    border-radius: 5px; 
+    background-color: #423f3f;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%; 
+}
+.box3{
+    background-color: #2f3031;
+    color: white;
+    padding: 5px 120px;
+}
+.row {
+    display :flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.h4{
+    font-size: 25px;
+    text-align: center;
+}
+.certificates-container {
+    border: 1px solid #424040; 
+    padding: 15px; 
+    margin: 10px; 
+    border-radius: 5px; 
+    background-color: #423f3f;
+ }
+.column1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%; 
+}
+.box4 {
+    background-color: #2f3031;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.h5 {
+    font-size: 25px;
+    text-align: center;
+}
