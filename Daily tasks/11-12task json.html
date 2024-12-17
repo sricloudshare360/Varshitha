@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function student(first, last, age, marks) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.marks = marks;
+}
+const stu = new student("Thummalapally", "Varshitha", 20, {
+  Math: 85,
+  Physics: 90,
+  Chemistry: 88
+});
+const studentJSON = JSON.stringify(stu);
+console.log(studentJSON);
+</script>
+</body>
+</html>

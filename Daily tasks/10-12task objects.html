@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+function student(first, last, age, marks) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.marks = marks;
+}
+const stu = new student("Thummalapally", "Varshitha", 20, {
+  Math: 85,
+  Physics: 90,
+  Chemistry: 88
+});
+let marksString = "";
+for (let subject in stu.marks) {
+  marksString += subject + ": " + stu.marks[subject] + ", ";
+}
+marksString = marksString.slice(0, -2);
+document.getElementById("demo").innerHTML =
+  "Student name is " + stu.firstName + " " + stu.lastName + 
+  ", age is " + stu.age + 
+  ", and marks obtained are: " + marksString + ".";
+</script>
+</body>
+</html>
